@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <!-- Avatar Section -->
+        <figure class="profile-avatar">
+          <img
+            src="https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"
+            alt="User profile photo"
+            data-testid="test-user-avatar"
+            id="user-avatar"
+          />
+        </figure>
+
+        <!-- Header with Name -->
+        <header class="profile-header">
+          <h2 data-testid="test-user-name" class="user-name">
+            Jacob chinaemerem
+          </h2>
+          <time
+            data-testid="test-user-time"
+            class="user-time"
+            id="user-time"
+            datetime=""
+          ></time>
+        </header>
+
+        <!-- Bio Section -->
+        <section class="profile-bio">
+          <p data-testid="test-user-bio" class="user-bio">
+            Hi, I'm Jacob Chinaemerem Emmanuel, a 29-year-old Front-end
+            Developer with 1 year of experience. I'm passionate about building
+            user-friendly and responsive web applications. I'm excited to
+            showcase my skills through this profile card project.
+          </p>
+        </section>
+
+        <!-- Social Links -->
+        <nav class="profile-social" aria-label="Social media links">
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <a
+                href="https://web.facebook.com/chinaemerem.jacob.3"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                class="social-link facebook"
+                aria-label="Twitter profile"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/chinaemerem703"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                class="social-link github"
+                aria-label="GitHub profile"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/chinaemeremjacob"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                class="social-link linkedin"
+                aria-label="LinkedIn profile"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Hobbies Section -->
+        <section class="profile-hobbies" aria-labelledby="hobbies-heading">
+          <h3 id="hobbies-heading">Hobbies</h3>
+          <ul data-testid="test-user-hobbies" class="hobbies-list">
+            <li>Writing code</li>
+            <li>Reading </li>
+            <li>Movie</li>
+            <li>Photography</li>
+          </ul>
+        </section>
+
+        <!-- Dislikes Section -->
+        <section class="profile-dislikes" aria-labelledby="dislikes-heading">
+          <h3 id="dislikes-heading">Dislikes</h3>
+          <ul data-testid="test-user-dislikes" class="dislikes-list">
+            <li>Disobidient</li>
+            <li>toxic environment</li>
+            <li>Noise</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
