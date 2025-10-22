@@ -1,6 +1,6 @@
 # profile card project  
 
-## Descrption  
+## Description  
 
 A simple profile card project showcasing my front-end development skills.
 
